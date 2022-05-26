@@ -10,46 +10,43 @@ import lombok.Data;
 
 /**
  * 
- * @TableName emp
+ * @TableName employee
  */
-@TableName(value ="emp")
+@TableName(value ="employee")
 @Data
-public class Emp implements Serializable {
+public class Employee implements Serializable {
     /**
-     * 
+     * 员工id
      */
     @TableId(type = IdType.AUTO)
     private Long id;
 
     /**
-     * 
+     * 员工姓名
      */
-    private String name;
+    private String empName;
 
     /**
-     * 
+     * 员工姓名
      */
-    private Date birthday;
+    private Integer age;
 
     /**
-     * 
+     * 员工住址
      */
-    private String email;
+    private String address;
 
     /**
-     * 
+     * 手机号
      */
-    private String sex;
+    private Integer phone;
+
 
     /**
-     * 
+     * 员工所属部门
      */
-    private Integer cellphone;
-
-    /**
-     * 
-     */
-    private Long depId;
+    private Long departmentId;
+    private Long inductionTime;
 
     @TableField(exist = false)
     private static final long serialVersionUID = 1L;

@@ -63,16 +63,8 @@
             <option name="tableUIInfoList">
               <list>
                 <TableUIInfo>
-                  <option name="className" value="Department" />
-                  <option name="tableName" value="department" />
-                </TableUIInfo>
-                <TableUIInfo>
-                  <option name="className" value="Emp" />
-                  <option name="tableName" value="emp" />
-                </TableUIInfo>
-                <TableUIInfo>
-                  <option name="className" value="User" />
-                  <option name="tableName" value="user" />
+                  <option name="className" value="EmployeeRecord" />
+                  <option name="tableName" value="employee_record" />
                 </TableUIInfo>
               </list>
             </option>

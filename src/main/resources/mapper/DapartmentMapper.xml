@@ -2,14 +2,14 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.mapper.DepartmentMapper">
+<mapper namespace="com.mapper.DapartmentMapper">
 
-    <resultMap id="BaseResultMap" type="com.pojo.Department">
+    <resultMap id="BaseResultMap" type="com.pojo.Dapartment">
             <id property="id" column="id" jdbcType="BIGINT"/>
-            <result property="depName" column="dep_name" jdbcType="VARCHAR"/>
+            <result property="department" column="department" jdbcType="VARCHAR"/>
     </resultMap>
 
     <sql id="Base_Column_List">
-        id,dep_name
+        id,department
     </sql>
 </mapper>
